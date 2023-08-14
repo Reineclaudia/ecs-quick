@@ -1,11 +1,11 @@
 # Define the provider for AWS
 provider "aws" {
-  region = "eu-west-2"  
+  region = "us-east-1"  
 }
 
 # Create an ECS cluster
 resource "aws_ecs_cluster" "my_cluster" {
-  name = "karo-ecs-cluster"  
+  name = "claudia-ecs-cluster"  
 }
 
 # Create a task definition
